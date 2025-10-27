@@ -8,3 +8,12 @@ body {
     background: rgb(38, 66, 109);
     color: rgb(0, 211, 70);
 }
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: rgb(0, 255, 0); }
+}
+p {
+  animation: color-change 1s infinite;
+}   
